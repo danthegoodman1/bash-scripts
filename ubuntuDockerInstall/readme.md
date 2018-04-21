@@ -4,10 +4,10 @@ The script will finish by running docker hello-world
 
 execute this script in one line by running:
 
-`curl https://raw.githubusercontent.com/danthegoodman1/bash-scripts/master/ubuntuDockerInstall.sh | bash`
+`curl https://raw.githubusercontent.com/danthegoodman1/bash-scripts/master/ubuntuDockerInstall/ubuntuDockerInstall.sh | bash`
 
 
 
 Or by running:
 
-`bash <(curl -s https://raw.githubusercontent.com/danthegoodman1/bash-scripts/master/ubuntuDockerInstall.sh)`
+`bash <(curl -s https://raw.githubusercontent.com/danthegoodman1/bash-scripts/master/ubuntuDockerInstall/ubuntuDockerInstall.sh)`
