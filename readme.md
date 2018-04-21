@@ -5,8 +5,8 @@ This will install docker version 17.03.2 which is the supported version for Ranc
 The script will finish by running docker hello-world
 
 execute this script in one line by running:
-`bash <(curl -s http://mywebsite.com/myscript.txt)`
+`bash <(curl -s https://raw.githubusercontent.com/danthegoodman1/bash-scripts/master/ubuntuDockerInstall.sh)`
 
 
 Or by running:
-`curl http://foo.com/script.sh | bash`
+`curl https://raw.githubusercontent.com/danthegoodman1/bash-scripts/master/ubuntuDockerInstall.sh | bash`
