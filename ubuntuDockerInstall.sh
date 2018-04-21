@@ -34,9 +34,9 @@ echo "##########################################"
 echo "#### Adding Docker Stable Repository  ####"
 echo "##########################################"
 sudo add-apt-repository \
-   \"deb [arch=amd64] https://download.docker.com/linux/ubuntu \
-   \$(lsb_release -cs) \
-   stable\"
+   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"
 
 echo "########################################"
 echo "#### Updating apt package index...  ####"
