@@ -6,3 +6,6 @@ This will install docker version 17.03.2 which is the supported version for Ranc
 The script will finish by running `docker hello-world`
 
 ------
+
+### [Rancher UFW Port Opening]()
+Opens the ports required for Rancher v2.0 on Ubuntu 16.04
