@@ -16,4 +16,14 @@ echo "###########################################################"
 echo "####  Configuring Default File for Express Servers...  ####"
 echo "###########################################################"
 
-curl (link) > /etc/nginx/sites-available/default
+curl https://raw.githubusercontent.com/danthegoodman1/bash-scripts/master/nginxUbuntuNodeJS/default > /etc/nginx/sites-available/default
+
+echo "###############################"
+echo "####  Restarting NGINX...  ####"
+echo "###############################"
+
+service nginx restart
+
+echo "#################"
+echo "####  Done!  ####"
+echo "#################"
