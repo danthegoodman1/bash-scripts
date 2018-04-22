@@ -9,3 +9,8 @@ The script will finish by running `docker hello-world`
 
 ### [Rancher UFW Port Opening](https://github.com/danthegoodman1/bash-scripts/tree/master/rancherUFW)
 Opens the ports required for Rancher v2.0 on Ubuntu 16.04
+
+---
+
+### [Ubuntu NGINX Install]()
+Installs NGINX Open Source on Ubuntu 16.04, prepared for loadbalancing NodeJS Express servers with Round-Robin
