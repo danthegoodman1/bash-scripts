@@ -14,3 +14,6 @@ Opens the ports required for Rancher v2.0 on Ubuntu 16.04
 
 ### [Ubuntu NGINX Install](https://github.com/danthegoodman1/bash-scripts/tree/master/nginxUbuntuNodeJS)
 Installs NGINX Open Source on Ubuntu 16.04, prepared for loadbalancing NodeJS Express servers with Round-Robin
+
+### [Rancher v2.0 install Ubuntu 16.04](https://github.com/danthegoodman1/bash-scripts/tree/master/rancherInstall)
+Full install of Rancher v2.0
