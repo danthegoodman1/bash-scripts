@@ -11,10 +11,10 @@ I also added an example index.js file so you can test the load balancer to see t
 
 execute this script in one line by running:
 
-`curl https://raw.githubusercontent.com/danthegoodman1/bash-scripts/master/nginxUbuntuNodeJS/nginxUbuntuNodeJS.sh | bash`
+`curl https://raw.githubusercontent.com/danthegoodman1/bash-scripts/master/nginxUbuntuNodeJS/nginxUbuntuNodeJS.sh | sudo bash`
 
 
 
 Or by running:
 
-`bash <(curl -s https://raw.githubusercontent.com/danthegoodman1/bash-scripts/master/nginxUbuntuNodeJS/nginxUbuntuNodeJS.sh)`
+`sudo bash <(curl -s https://raw.githubusercontent.com/danthegoodman1/bash-scripts/master/nginxUbuntuNodeJS/nginxUbuntuNodeJS.sh)`
