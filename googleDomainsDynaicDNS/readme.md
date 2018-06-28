@@ -1,4 +1,4 @@
-#Dynamic DNS Script for Google Domains
+# Dynamic DNS Script for Google Domains
 By Dan Goodman
 
 ## Customization
