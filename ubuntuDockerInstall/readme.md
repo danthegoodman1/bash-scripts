@@ -4,7 +4,7 @@ The script will finish by running `docker hello-world`
 
 execute this script in one line by running:
 
-`sudo curl https://raw.githubusercontent.com/danthegoodman1/bash-scripts/master/ubuntuDockerInstall/ubuntuDockerInstall.sh | bash`
+`sudo curl https://raw.githubusercontent.com/danthegoodman1/bash-scripts/master/ubuntuDockerInstall/ubuntuDockerInstall.sh | sudo bash`
 
 
 
