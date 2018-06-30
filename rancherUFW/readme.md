@@ -5,7 +5,7 @@ Opens the required ports for Rancher v2.0:
 
 execute this script in one line by running:
 
-`curl https://raw.githubusercontent.com/danthegoodman1/bash-scripts/master/rancherUFW/rancherUFW.sh | sudo bash`
+`sudo curl https://raw.githubusercontent.com/danthegoodman1/bash-scripts/master/rancherUFW/rancherUFW.sh | sudo bash`
 
 
 
