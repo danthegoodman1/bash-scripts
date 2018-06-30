@@ -3,7 +3,7 @@ Install the slave for Rancher
 
 execute this script in one line by running:
 
-`curl https://raw.githubusercontent.com/danthegoodman1/bash-scripts/master/rancherInstall/rInst.sh | sudo bash`
+`sudo curl https://raw.githubusercontent.com/danthegoodman1/bash-scripts/master/rancherInstall/rInst.sh | sudo bash`
 
 
 
