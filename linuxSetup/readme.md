@@ -6,4 +6,4 @@ This script just does everything I want when setting up Ubuntu (mainly on Digita
 
 Run with:
 
-`curl https://raw.githubusercontent.com/danthegoodman1/bash-scripts/master/linuxSetup/usetup-1-root.sh | bash`
+`curl https://raw.githubusercontent.com/danthegoodman1/bash-scripts/master/linuxSetup/usetup-1-root.sh > setup.sh && bash setup.sh`
