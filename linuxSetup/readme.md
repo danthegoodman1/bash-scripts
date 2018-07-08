@@ -1,16 +1,9 @@
 # My Setup script for debian
 By Dan Goodman
 
-This script just adds everything I want when installing debian
+This script just does everything I want when setting up Ubuntu (mainly on Digital Ocean)
 
-## Customization
-`domain`: Set to the Domain or Sub-Domain of your choosing
 
-`username`: The username given for that Domain/Sub-Domain
+Run with:
 
-`password`: The password given for that Domain/Sub-Domain
-
-That's it, the script will find your public IP and send it to Google DNS servers over HTTPS (assuming support on client side).
-
-Just make a cron job to run that script on the interval that you want with:
-`bash googleDynamicDNS.sh`
+`curl https://raw.githubusercontent.com/danthegoodman1/bash-scripts/master/linuxSetup/usetup-1-root.sh | bash`
