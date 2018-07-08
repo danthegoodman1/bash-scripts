@@ -10,15 +10,12 @@ userDir="/home/$userName"
 # echo "#######################################"
 # apt update -y
 
-echo "#######################################"
-echo "Generating 4096 RSA ssh keys"
-echo "#######################################"
 mkdir $userDir/.ssh/
 grep -q "^[^#]*PasswordAuthentication" /etc/ssh/sshd_config && sed -i "/^[^#]*PasswordAuthentication[[:space:]]yes/c\PasswordAuthentication no" /etc/ssh/sshd_config || echo "PasswordAuthentication no" >> /etc/ssh/sshd_config
 service ssh restart
 curl -L keys.danthegoodman.com > $userDir/.ssh/authorized_keys
-curl https://raw.githubusercontent.com/danthegoodman1/bash-scripts/master/linuxSetup/2.sh > $userDir/2.sh
 
 curl -fsSL get.docker.com | bash
 
-echo "\n\n Done... Logout and log back in as $userName. You should be prompted to create a sudo password on login.\nAfterwards, run the '2.sh' file right inside of the root directory to create ssh keys for the user"
+echo "Done... Logout and log back in as $userName. You should be prompted to create a sudo password on login."
+echo "Afterwards, run the '2.sh' file right inside of the root directory to create ssh keys for the user"
