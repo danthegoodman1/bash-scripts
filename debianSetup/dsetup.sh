@@ -35,4 +35,4 @@ echo "Installing sudo and adding user"
 echo "#######################################"
 # We do this last so the script can end quickly after giving the input
 apt install sudo -y
-adduser $userName sudo
+sudo adduser $userName sudo
